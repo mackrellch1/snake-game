@@ -3,7 +3,7 @@ const SNAKE_COLOR = '#c2c2c2'
 const FOOD_COLOR = '#e66917'
 const gameScreen = document.getElementById('gameScreen')
 
-const socket = io('http://localhost:3000')
+const socket = io('https://intense-sands-13859.herokuapp.com/')
 
 
 socket.on('init', handleInit)
